@@ -18,27 +18,46 @@
 
          <form id="book-form">
            <div class="form-group">
-             <label for="title">title</label>
-             <input type="text" name="title" value="title" id="title">
+             <label for="title">Title</label>
+             <input type="text" name="title"  placeholder="Title" id="title">
            </div>
 
            <div class="form-group">
              <label for="author">Author</label>
-             <input type="text" name="author" value="author" id="author">
+             <input type="text" name="author"  placeholder="Author" id="author">
            </div>
 
            <div class="form-group">
-             <label for="title">isbn</label>
-             <input type="text" name="isbn" value="isbn" id="isbn">
+             <label for="title">ISBN Number</label>
+             <input type="text" name="isbn"  placeholder="ISBN Number" id="isbn">
            </div>
 
 
 
 
-           <input type="sumbit" value="Add Your Booksssss" class="submit_book">
+           <!-- <input type="sumbit" value="Add Your Booksssss" class="submit_book"> -->
+           <button id="submit" class="submit_book">Submit</button>
+          </form>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+          </table>
 
 
-         </form>
+
+
+
+
+
+
     </div><!-- end container -->
 
 <script type="text/javascript" src="app.js">
