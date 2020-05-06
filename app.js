@@ -10,6 +10,15 @@ book_submit.addEventListener('click', function(){
 });
 
 
+//Browser Width Fun.
+const width = window.innerWidth;
+
+console.log(width);
+
+if(width < 1900){
+  console.log('less < 1900');
+}
+
 
 
 
