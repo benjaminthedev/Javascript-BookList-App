@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
 
-    <title>JavaScript My Favs Book App</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
 
-
-  </head>
-  <body>
-
-    <h1>Hello World</h1>
-
-    <div class="container">
-        <h1>My BookList</h1>
-
-         <form id="book-form">
-           <div class="form-group">
-             <label for="title">Title</label>
-             <input type="text" name="title"  placeholder="Title" id="title">
-           </div>
-
-           <div class="form-group">
-             <label for="author">Author</label>
-             <input type="text" name="author"  placeholder="Author" id="author">
-           </div>
-
-           <div class="form-group">
-             <label for="title">ISBN Number</label>
-             <input type="text" name="isbn"  placeholder="ISBN Number" id="isbn">
-           </div>
+  <title>JavaScript My Favs Book App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
 
+</head>
 
+<body>
 
-           <!-- <input type="sumbit" value="Add Your Booksssss" class="submit_book"> -->
-           <button id="submit" class="submit_book">Submit</button>
-          </form>
+  <h1>Hello World</h1>
 
-          <table>
-            <thead>
-              <tr>
-                <th>Title</th>
-                <th>Author</th>
-                <th>ISBN</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody id="book-list"></tbody>
-          </table>
+  <div class="container">
+    <h1>My BookList</h1>
+
+    <form id="book-form">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" name="title" placeholder="Title" id="title">
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" name="author" placeholder="Author" id="author">
+      </div>
+
+      <div class="form-group">
+        <label for="title">ISBN Number</label>
+        <input type="text" name="isbn" placeholder="ISBN Number" id="isbn">
+      </div>
 
 
 
 
+      <!-- <input type="sumbit" value="Add Your Booksssss" class="submit_book"> -->
+      <button id="submit" class="submit_book">Submit</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
 
 
 
 
-    </div><!-- end container -->
 
-<script type="text/javascript" src="app.js">
 
-</script>
-  </body>
+
+
+  </div><!-- end container -->
+
+  <script type="text/javascript" src="app.js">
+
+  </script>
+</body>
+
 </html>
