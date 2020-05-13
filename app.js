@@ -1,23 +1,23 @@
 
-console.log('Welcome to the world of books......');
+console.log('Welcome to the world of books - Have fun!');
 
 const book_submit = document.querySelector('.submit_book');
 
-console.log(book_submit);
+// console.log(book_submit);
 
-book_submit.addEventListener('click', function () {
-  console.log('clicked');
-});
+// book_submit.addEventListener('click', function () {
+//   console.log('clicked');
+// });
 
 
 //Browser Width Fun.
-const width = window.innerWidth;
+// const width = window.innerWidth;
 
-console.log(width);
+// console.log(width);
 
-if (width < 1900) {
-  console.log('less < 1900');
-}
+// if (width < 1900) {
+//   console.log('less < 1900');
+// }
 
 
 
